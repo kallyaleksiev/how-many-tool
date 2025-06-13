@@ -1,0 +1,13 @@
+[project]
+name = "how-many-times"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.2.1",
+    "httpx>=0.28.1",
+    "pydantic>=2.11.6",
+    "pydantic-ai[logfire]>=0.2.18",
+    "pydantic-evals>=0.2.18",
+]
